@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490B53E726CE7AD4007AE8DF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B53E626CE7AD4007AE8DF /* BackgroundView.swift */; };
+		4946978E269C5D3D003C35A3 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946978D269C5D3D003C35A3 /* TextViews.swift */; };
+		4969208126A05133003805E7 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969208026A05133003805E7 /* RoundedViews.swift */; };
+		49EB654A269E7B990081A800 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB6549269E7B990081A800 /* Shapes.swift */; };
 		E14A3979253A00D500DB69A0 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A3978253A00D500DB69A0 /* BullseyeApp.swift */; };
 		E14A397B253A00D500DB69A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A397A253A00D500DB69A0 /* ContentView.swift */; };
 		E14A397D253A00D600DB69A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14A397C253A00D600DB69A0 /* Assets.xcassets */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490B53E626CE7AD4007AE8DF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		4946978D269C5D3D003C35A3 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		4969208026A05133003805E7 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		49EB6549269E7B990081A800 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		E14A3975253A00D500DB69A0 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14A3978253A00D500DB69A0 /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
 		E14A397A253A00D500DB69A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				E14A397A253A00D500DB69A0 /* ContentView.swift */,
+				4946978D269C5D3D003C35A3 /* TextViews.swift */,
+				49EB6549269E7B990081A800 /* Shapes.swift */,
+				4969208026A05133003805E7 /* RoundedViews.swift */,
+				490B53E626CE7AD4007AE8DF /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4969208126A05133003805E7 /* RoundedViews.swift in Sources */,
 				E14A397B253A00D500DB69A0 /* ContentView.swift in Sources */,
+				4946978E269C5D3D003C35A3 /* TextViews.swift in Sources */,
+				490B53E726CE7AD4007AE8DF /* BackgroundView.swift in Sources */,
+				49EB654A269E7B990081A800 /* Shapes.swift in Sources */,
 				E14A3997253A1C6A00DB69A0 /* Game.swift in Sources */,
 				E14A3979253A00D500DB69A0 /* BullseyeApp.swift in Sources */,
 			);
@@ -375,7 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = PB8XCD5RSV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -397,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
-				DEVELOPMENT_TEAM = KFCNEC27GU;
+				DEVELOPMENT_TEAM = PB8XCD5RSV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
